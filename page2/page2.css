@@ -1,0 +1,130 @@
+#white {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+
+#black {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #0C0D0E;
+}
+
+#left {
+    color: #FE3B1F;
+    font-family: Rowdies;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 79px;
+    text-align: center;
+}
+
+#right {
+    color: white;
+}
+
+#right {
+    color: #FE3B1F;
+    font-family: Rowdies;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 79px;
+    text-align: center;
+}
+
+#text {
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+    background-color: #0C0D0E;
+    width: 300px;
+    height: 500px;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+form>input {
+    display: block;
+    width: 455px;
+    height: 54px;
+    background: #FFFFFF;
+    border: 1px solid #525557;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 10px;
+}
+
+form>input:nth-of-type(1) {
+    margin-top: 150px;
+}
+
+nav>div {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 7px;
+    border-radius: 100%;
+    background-color: #FE3B1F;
+    opacity: 0.1;
+    margin: 2px;
+}
+
+nav>div:nth-of-type(1) {
+    opacity: 1;
+}
+
+nav {
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    text-align: center;
+}
+
+a {
+    opacity: 1;
+    text-decoration: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: white;
+    border: 3px solid #FE3B1F;
+    color: #FE3B1F;
+}
+
+::placeholder {
+    position: absolute;
+    top: 30%;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #454545;
+}
+
+button {
+    color: #FE3B1F;
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+    border: 3px solid #FE3B1F;
+    cursor: pointer;
+}

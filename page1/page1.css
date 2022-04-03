@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+#stars {
+    position: absolute;
+    width: 1920px;
+    height: 950px;
+    left: 0px;
+    top: 0px;
+}
+
+#logo {
+    position: absolute;
+    width: 409.92px;
+    height: 372.45px;
+    left: 750px;
+    top: 500px;
+    transform: rotate(-27.28deg);
+}
+
+#btn1 {
+    cursor: pointer;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: #FE3B1F;
+    height: 79px;
+    width: 395px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 24px;
+    display: block;
+}
+
+#btn2 {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    height: 66px;
+    width: 338px;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    font-size: 24px;
+    color: white;
+    top: 2em;
+}
+
+h1 {
+    margin-top: 10px;
+    margin: auto;
+    color: #FE3B1F;
+    height: 212px;
+    width: 1090px;
+    border-radius: nullpx;
+    font-family: 'Rowdies', cursive;
+    font-size: 96px;
+    font-weight: 400;
+    text-align: center;
+}

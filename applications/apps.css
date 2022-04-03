@@ -1,0 +1,51 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+#PageHeading {
+    text-align: center;
+    color: white;
+}
+
+button {
+    text-align: left;
+    margin: 0;
+}
+
+.maincontainer {
+    width: 60em;
+    height: 55em;
+    background-color: white;
+    margin: auto;
+    transition: 1s;
+}
+
+.containerLeft {
+    width: 30em;
+    height: 55em;
+    background-color: white;
+    float: left;
+}
+
+.containerRight {
+    width: 30em;
+    height: 55em;
+    background-color: white;
+    float: right;
+}
+
+.subheading {
+    font-size: 15px;
+}
+
+pre {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#hadCovidAt {
+    padding: 10px;
+    border: 1px solid #525557;
+    width: 15em;
+    overflow-x: auto;
+}

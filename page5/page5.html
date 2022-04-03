@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <link rel="stylesheet" href="page5.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Raleway:wght@800&family=Rowdies:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="black">
+        <h1 id="right">A bit about our battles</h1>
+
+        <div id="text">
+            <p id="info">We were soo much fun before the pandemic started! Parties almost every weekend and lavish employee birthday celebrations! Unfortunately, covid ruined that fun like it did almost everything else in the world. But we try our best to zhuzh it
+                up a bit. For example, we host biweekly Devtalks where our senior and lead developers talk about topics they are passionate about. Previous topics have included Web3, NFT, Laravel 9, Kubernetes, etc. We hold these talks in the office but
+                you can join our Zoom broadcast as well. Feel free to join either as an attendee or a speaker!</p>
+        </div>
+
+        <section id="test">
+            <div id="white">
+
+                <h1 id="left">What about you?</h1>
+
+                <form action="../submit/submit.html">
+
+                    <section>
+                        <p><b>Would you attend Devtalks and maybe also organize your own?</b></p>
+                        <div class="cont"> <input type="radio" name="devtalkattend" id="devtalkYes" value="true" required> <label for="devtalkYes">Yes</label>
+                        </div>
+
+                        <div class="cont"> <input type="radio" name="devtalkattend" id="devtalkNo" value="false"> <label for="devtalkNo">No</label>
+                        </div>
+
+                    </section>
+                    <section id="attend" style="display: none;">
+                        <p><b>What would you speak about at Devtalk?</b></p>
+                        <textarea id="speak" id="a" cols="30" rows="10" default="I would"></textarea>
+                    </section>
+
+                    <p><b>Tell us something special</b></p>
+
+                    <div class="cont"> <textarea name="special" id="special" placeholder="I... " cols="30 " rows="10 " required></textarea>
+                    </div>
+                    <nav>
+
+                        <button onclick="location.href='../page4/page4.html' ; " id="previous">&#8249;</button>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <button id="next">&#8250;</button>
+
+                    </nav>
+
+        </section>
+
+
+        </form>
+
+
+        </section>
+
+
+
+
+
+
+</body>
+
+<script src="page5.js"></script>
+
+
+
+</html>

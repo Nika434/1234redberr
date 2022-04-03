@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <link rel="stylesheet" href="page4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Raleway:wght@800&family=Rowdies:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="black">
+        <h1 id="right">A bit about our battles</h1>
+
+        <div id="text">
+            <p id="info">As this infamous pandemic took over the world, we adjusted our working practices so that our employees can be as safe and comfortable as possible. We have a hybrid work environment, so you can either work from home or visit our lovely office
+                on Sairme Street. If it was up to us, we would love you to see us in the office because we think face-to-face communications > Zoom meetings. Both on the fun and productivity scales.</p>
+        </div>
+
+        <section id="test">
+            <div id="white">
+
+                <h1 id="left">Covid Stuff</h1>
+
+                <form action="../page5/page5.html">
+
+                    <section>
+                        <p><b>How would you prefer to work?</b></p>
+
+                        <div class="cont"> <input type="radio" name="type" id="home" value="from_home" required> <label for="home" name="type">From Home</label>
+                        </div>
+
+                        <div class="cont"> <input type="radio" name="type" id="hybrid" value="hybrid"> <label name="type" for="hybrid">Hybrid</label>
+                        </div>
+
+                        <div class="cont"> <input type="radio" name="type" id="sairme" value="from_office"> <label name="type" for="sairme">From Sairme Office</label>
+                        </div>
+                    </section>
+
+
+                    <section>
+                        <p><b>Did you contact covid 19? :(</b></p>
+                        <div class="cont"> <input type="radio" name="contact" id="covidNo" value="false" required> <label class="covidNo" name="contact" for="covidNo">No</label>
+                        </div>
+
+                        <div class="cont"> <input type="radio" name="contact" id="covidYes" value="true" required> <label class="covidYes" name="contact" for="covidYes">Yes</label>
+                        </div>
+                    </section>
+
+
+                    <section id="covidDate" style="display: none;">
+                        <p><b>When?</b></p>
+                        <div class="cont"> <input type="date" id="covidAt" min="2020-01-01">
+                        </div>
+                    </section>
+
+
+
+                    <section>
+                        <p><b>Have you been vaccinated?</b></p>
+                        <div class="cont"> <input type="radio" value="false" name="vaccine" id="vaccineNo" required> <label for="vaccineNo">No</label>
+                        </div>
+
+                        <div class="cont"> <input type="radio" value="true" name="vaccine" id="vaccineYes" required> <label for="vaccineYes">Yes</label>
+                        </div>
+                    </section>
+
+                    <section style="display: none;" id="vaccineDate">
+                        <p><b>When did you get your last covid vaccine?</b></p>
+                        <div class=" cont "> <input type="date" id="vaccineAt" min="2020-01-01">
+                        </div>
+                    </section>
+                    <nav>
+
+                        <button id="previous">&#8249;</button>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <button id="next">&#8250;</button>
+
+                    </nav>
+
+
+                </form>
+
+
+
+        </section>
+
+
+
+
+
+
+</body>
+
+<script src="page4.js "></script>
+
+
+</html>
